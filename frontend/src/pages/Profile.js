@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from '../components/Sidebar';
-import UserProfile from '../components/UserProfile';
+// import UserProfile from '../components/UserProfile';
 import ProficiencyCard from '../components/ProficiencyCard';
 import SkillFrequencyChart from '../components/SkillFrequencyChart';
 import EditSkillModal from '../components/EditSkillModal';
