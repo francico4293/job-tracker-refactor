@@ -1,0 +1,165 @@
+#dark .container-fluid {
+    background-color: rgb(25, 25, 25);
+}
+
+/* ----- Sidebar Styles ----- */
+#dark .sidebar {
+    background-color: rgb(50, 50, 50);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0px 2px 1px black;
+    transition: ease all .5s;
+    z-index: 1;
+}
+
+#dark .sidebar h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+#dark .sidebar .nav-item {
+    border-bottom: 1px solid #adb5bd;
+}
+
+#dark .sidebar .nav-link {
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+#dark .sidebar .nav-link:hover {
+    color: white;
+}
+  
+#dark .sidebar .nav-item {
+    transition: all .5s;
+}
+  
+#dark .sidebar .nav-item:hover {
+    background-color: rgb(25, 25, 25);
+}
+
+#dark .fa-sun {
+    color: white;
+}
+
+#dark .fa-moon {
+    color: white;
+}
+
+/* ----- Login/Signup Page Styles ----- */
+#dark .login-image {
+    position: relative;
+    display: inline;
+    height: 700px;
+}
+  
+#dark .login-image::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1));
+}
+  
+#dark .login-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+
+#dark .form {
+    height: 700px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+#dark .form .nav-link.active {
+    background-color: rgb(35, 35, 35) !important;
+    border-bottom: none !important;
+}
+
+#dark .form .nav-link {
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+#dark .form .nav-tabs {
+    border-bottom: 1px solid #bababa;
+}
+
+#dark .form .nav-link:hover {
+    border-bottom: 1px solid #bababa;
+}
+
+#dark .form-separator::before, .form-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #bababa;
+}
+  
+#dark .form-separator::before {
+    margin-right: .25em;
+}
+  
+#dark .form-separator::after {
+    margin-left: .25em;
+}
+
+#dark .google-button-container {
+    position: relative;
+}
+
+#dark .fa-google {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#dark .form .input-group-text {
+    cursor: pointer;
+}
+
+/* ----- Profile Page Styles ----- */
+#dark .canvas-container {
+    height: 100%;
+    width: 100%;
+}
+
+#dark .profile-content {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#dark .bio, #dark .overview {
+    color: white;
+}
+
+#dark .proficiency-card {
+    background-color: rgb(25, 25, 25);
+    box-shadow: 1px 2px 5px black;
+    transition: all .25s;
+}
+
+#dark .proficiency-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 1px 5px 8px black;
+}
+
+#dark .fa-pen-to-square, #dark .fa-trash {
+    cursor: pointer;
+}
+
+#dark .modal-content {
+    color: white;
+    background-color: rgb(50, 50, 50) !important;
+}
